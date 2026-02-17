@@ -100,17 +100,6 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## ⚠ Production Improvements (Future Work)
-
-- Similarity score threshold filtering
-- Source attribution in responses
-- Error monitoring and alerting
-- Query analytics dashboard
-- Rate limiting and retry logic
-- Observability and logging layer
-
----
-
 ##  Tech Stack
 
 - n8n (Workflow Orchestration)
