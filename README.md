@@ -20,7 +20,7 @@ This system solves that by:
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 The system follows a layered RAG architecture:
 
@@ -51,16 +51,16 @@ The system follows a layered RAG architecture:
 
 ---
 
-## 🔄 Workflow Breakdown
+##  Workflow Breakdown
 
-### 1️⃣ Conversational Admission Assistant
+### Conversational Admission Assistant
 
 - Chat Trigger → AI Agent
 - Tool-based retrieval from Pinecone
 - Memory buffer for contextual continuity
 - Grounded responses using retrieved documents
 
-### 2️⃣ Knowledge Base Auto-Update Pipeline
+### Knowledge Base Auto-Update Pipeline
 
 - Google Drive Trigger (file created)
 - File download
@@ -72,7 +72,7 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## 💬 Example Interaction
+## Example Interaction
 
 **User:** What is the IMB application deadline?
 
@@ -81,7 +81,7 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## 🧠 Key Design Decisions
+##  Key Design Decisions
 
 - Used namespace-based vector isolation for scalable multi-tenant architecture
 - Implemented recursive chunking (500 tokens, 20 overlap) to balance semantic coherence and retrieval precision
@@ -91,7 +91,7 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## 📈 Scalability Considerations
+##  Scalability Considerations
 
 - Pinecone supports horizontal scaling
 - Namespace isolation enables support for multiple institutions
@@ -111,7 +111,7 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - n8n (Workflow Orchestration)
 - OpenAI GPT-4o-mini
@@ -121,7 +121,7 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Import workflows into n8n
 2. Configure credentials:
@@ -134,13 +134,13 @@ This ensures the assistant stays up-to-date without manual retraining.
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Refer to `.env.example`
 
 ---
 
-## 📌 Project Type
+## Project Type
 
 AI Systems Engineering  
 Retrieval-Augmented Generation (RAG)  
