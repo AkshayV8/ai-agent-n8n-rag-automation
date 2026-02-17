@@ -139,12 +139,3 @@ This ensures the assistant stays up-to-date without manual retraining.
 Refer to `.env.example`
 
 ---
-
-## Project Type
-
-AI Systems Engineering  
-Retrieval-Augmented Generation (RAG)  
-Event-Driven Automation Architecture  
-Conversational AI Infrastructure  
-
----
