@@ -24,7 +24,7 @@ This system solves that by:
 
 The system follows a layered RAG architecture:
 
-![System Architecture](docs/architecture.png)
+(docs/architecture.png)
 
 ### Architecture Layers
 
